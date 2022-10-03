@@ -1,0 +1,78 @@
+.page-footer
+{
+background-color:#d77f13;
+}
+
+.sidenav
+{
+    background-color:#f0b95f;
+}
+
+.sidenav-trigger
+{
+    color:#000000;
+    font-size:36px;
+    margin: 16px;
+}
+
+h6
+{
+    font-weight:bold;
+}
+h5
+{
+    font-weight:bold;
+}
+.panel.owner
+{
+    padding:20px;
+    min-height:600px;
+}
+.panel.dog
+{
+    padding:20px;
+    min-height:600px;
+}
+
+div.rounded.far
+{
+    border-radius:3px;
+    background-color:#cc2424;
+    color:white;
+}
+div.rounded.close
+{
+    border-radius:3px;
+    background-color:#f2bb60;
+}
+div.rounded.perfect
+{
+    border-radius:3px;
+    background-color:#45712c;
+    color:white;
+}
+
+.btn
+{
+    background-color:#45712c;
+}
+.btn:hover
+{
+    background-color:#5a9339;
+}
+
+img.avail
+{
+    height:32px;
+}
+
+img.dogpic
+{
+height:500px;
+width:100%;
+object-fit:cover;
+}
+
+{
+    background-color: #f0b95f;
+}
