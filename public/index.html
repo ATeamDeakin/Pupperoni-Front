@@ -8,7 +8,7 @@
 		<meta name="description" content="Match interface for Pupperoni" />
 		<meta name="author" content="Aya" />
 
-		<meta property="og:title" content="Pupperoni - Match" />
+		<meta property="og:title" content="Pupperoni Login" />
 		<meta property="og:type" content="website" />
 		<meta
 			property="og:description"
@@ -30,237 +30,35 @@
 	<body>
 		<!--NavBar-->
 
-		<ul id="slide-out" class="sidenav">
-			<li>
-				<div class="background">
-					<img src="images/pupperoni.jpg" width="300" />
-				</div>
-			</li>
-
-			<li>
-				<a href="#!"><i class="material-icons">pets</i>Match</a>
-			</li>
-			<li>
-				<a href="#!"><i class="material-icons">groups</i>Your Packmates</a>
-			</li>
-			<li><a class="subheader">Your space</a></li>
-			<li>
-				<a href="#!"
-					><i class="material-icons">settings</i>Settings and Profile</a
-				>
-			</li>
-		</ul>
-
-		<a href="#" data-target="slide-out" class="sidenav-trigger"
-			><i class="material-icons">menu</i></a
-		>
-		<!--Content-->
 		<div class="center-align">
-			<h1>Pupperoni - Match</h1>
+			<h2>Pupperoni</h2>
+			<br />
 		</div>
-		<div class="container">
-			<div class="row">
-
-			<!--Owner Card Static-->
-			<div class="col s4" class="center-align" id="owner">
-				<div class="card panel owner" class="z-depth-3">
-					<h5>Owner name</h5>
-					<div class="divider"></div>
-
-					<div class="section" class="textbox">
-						<h6>Local Activities</h6>
-						Test
-					</div>
-					<div>
-						<h6>Availability</h6>
-						<div>
-							
-							<img
-								id="MonMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="TueMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="WedMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="ThuMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="FriMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="SatMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-							<img
-								id="SunMor"
-								class="avail"
-								src="images/icon-mor-disabled.png"
-							/>
-						</div>
-						<div>
-							<img
-								id="MonDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="TueDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="WedDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="ThuDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="FriDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="SatDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-							<img
-								id="SunDay"
-								class="avail"
-								src="images/icon-day-disabled.png"
-							/>
-						</div>
-						<div>
-							<img
-								id="MonEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="TueEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="WedEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="ThuEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="FriEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="SatEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-							<img
-								id="SunEve"
-								class="avail"
-								src="images/icon-eve-disabled.png"
-							/>
-						</div>
-					</div>
-					<h6>Other Info</h6>
-					<ul>
-						<li>Suburb</li>
-						<li>Number</li>
-						<li>Transport</li>
-						<li>List of dog's names</li>
-					</ul>
-					<br />
-				</div>
-				<br />
+		<br />
+		<div class="center-align">
+			<img src="images/pupperoni.jpg" width="300">
+			<h5>Welcome back!</h5>
+			<br>
+			<div class="signin">
+				<input
+					placeholder="email"
+					id="email"
+					type="text"
+					class="validate"
+				/>
+				<input
+					placeholder="Password"
+					id="password"
+					type="text"
+					class="validate"
+				/>
 			</div>
-
-			<div class="col s4">
-				<div class="card panel" >
-
-					<img class="dogpic" src="images/pupperoni.jpg" />
-					<div class="divider"></div>
-					<!--enable and disable versions-->
-					<i class="large material-icons">arrow_back</i>
-					<!--Red-->
-					<i class="large material-icons">close</i>
-					<!--Make Green-->
-					<i class="large material-icons">check</i>
-					<i class="large material-icons">arrow_forward</i>
-					
-				</div>
-			</div>
-
-			<!--dog menu-->
-			<div class="col s4" class="z-depth-3" id="dog">
-				<div class="card panel dog" style="text-align:center;">
-					<h5>Dog</h5>
-					<div class="divider"></div>
-					<div class="row" >
-						<div class="col s6">
-							<h6>Age</h6>
-							<div class="rounded perfect">IEnumerator </div>
-						</div>
-						<div class="col s6">
-							<h6>Size</h6>
-							<div class="rounded far">IEnumerator </div>						</div>
-						<div class="col s6">
-							<h6>People Friendly</h6>
-							<div class="rounded far">IEnumerator </div>
-						</div>
-						<div class="col s6">
-							<h6>Dog Friendly</h6>
-							<div class="rounded far">IEnumerator </div>
-						</div>
-						<div class="col s6">
-							<h6>Prey Drive</h6>
-							<div class="rounded far">IEnumerator </div>
-						</div>
-						<div class="col s6">
-							<h6>Training</h6>
-							<div class="rounded far">IEnumerator </div>
-						</div>
-					</div>
-
-						<div><h6>Personality</h6></div>
-						Array
-						<div><h6>Breed</h6></div>
-						String
-						<div><h6>Other</h6></div>
-						String
-						<br>
-						<br>
-						<a class="btn">Picture</a>
-						
-					</div>
-				</div>
-			</div>
+			<br>
+			<a class="btn">Log In</a>
 		</div>
-	</div>
-
+		<br />
+		<br />
+		<br />
 		<!--Footer-->
 		<footer class="page-footer">
 			<div class="container">
@@ -293,10 +91,7 @@
 				</div>
 			</div>
 			<div class="footer-copyright">
-				<div class="container">
-					© 2014 Copyright Text
-					<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-				</div>
+				<div class="container">© 2014 Copyright Text</div>
 			</div>
 		</footer>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
