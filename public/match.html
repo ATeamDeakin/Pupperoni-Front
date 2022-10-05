@@ -73,13 +73,13 @@
 
 			<!--Owner Card Static-->
 			<div class="col s4" class="center-align" id="owner">
-				<div id="match owner" class="card panel owner">
-					<h5>Owner name</h5>
+				<div id="matchowner" class="card panel owner">
+					<h5 id="firstName">Owner name</h5>
 					<div class="divider"></div>
 
 					<div class="section" class="textbox">
 						<h6>Local Activities</h6>
-						Test
+						<div id="local"></div>
 					</div>
 					<div>
 						<h6>Availability</h6>
@@ -198,10 +198,10 @@
 					</div>
 					<h6>Other Info</h6>
 					<ul>
-						<li>Suburb</li>
-						<li>Number</li>
-						<li>Transport</li>
-						<li>List of dog's names</li>
+						<li id="suburb">Suburb</li>
+						<li id="phone">Number</li>
+						<li id="transport">Transport</li>
+						<li id="dognames">List of dog's names</li>
 					</ul>
 					<br />
 				</div>
@@ -222,33 +222,33 @@
 			</div>
 
 			<!--dog menu-->
-			<div class="col s4" class="z-depth-3" id="dog">
+			<div class="col s4" id="dog">
 				<div class="card panel dog" style="text-align:center;">
-					<h5>Dog</h5>
+					<h5 id="">Dog</h5>
 					<div class="divider"></div>
 					<div class="row" >
 						<div class="col s6">
 							<h6>Age</h6>
-							<div class="rounded perfect">IEnumerator </div>
+							<div id="age">IEnumerator </div>
 						</div>
 						<div class="col s6">
 							<h6>Size</h6>
-							<div class="rounded far">IEnumerator </div>						</div>
+							<div id="size">IEnumerator </div>						</div>
 						<div class="col s6">
 							<h6>People Friendly</h6>
-							<div class="rounded far">IEnumerator </div>
+							<div id=" ounded far">IEnumerator </div>
 						</div>
 						<div class="col s6">
 							<h6>Dog Friendly</h6>
-							<div class="rounded far">IEnumerator </div>
+							<div id=" ounded far">IEnumerator </div>
 						</div>
 						<div class="col s6">
 							<h6>Prey Drive</h6>
-							<div class="rounded far">IEnumerator </div>
+							<div id=" ounded far">IEnumerator </div>
 						</div>
 						<div class="col s6">
 							<h6>Training</h6>
-							<div class="rounded far">IEnumerator </div>
+							<div id=" ounded far">IEnumerator </div>
 						</div>
 					</div>
 
@@ -260,8 +260,8 @@
 						String
 						<br>
 						<br>
-						<a class="btn">Picture</a>
-						
+						<a class="btn" onclick="updateOwner()">Picture</a>
+						<button onclick="updateOwner">pls</button>
 					</div>
 				</div>
 			</div>
