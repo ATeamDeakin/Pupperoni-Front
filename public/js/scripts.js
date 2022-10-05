@@ -1,7 +1,5 @@
 var jwt = localStorage.getItem("jwt");
-if (jwt != null) {
-	window.location.href = './match.html'
-}
+
 
 let socket = io();
 socket.on(() => {
@@ -26,7 +24,7 @@ function login() {
 			if (objects['status'] == 'ok') {
 				localStorage.setItem("jwt", objects['accessToken']);
 				Swal.fire({
-					text: objects['message'],
+					text: "Logged In",
 					icon: 'success',
 					confirmButtonText: 'OK'
 				}).then((result) => {
