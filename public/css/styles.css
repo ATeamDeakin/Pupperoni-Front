@@ -53,12 +53,35 @@ div.rounded.perfect {
   background-color: #5a9339;
 }
 
+.btn-large
+{
+  background-color:#808080;
+}
+.btn-large.accept{
+  background-color:#808080;
+}
+
+
+.btn-large.accept {
+  background-color: #45712c;
+  font-size
+}
+.btn-large.accept:hover {
+  background-color: #5a9339;
+}
+.btn-large.reject {
+  background-color: #cc2424;
+}
+.btn-large.reject:hover {
+  background-color: #E83434;
+}
+
 img.avail {
   height: 32px;
 }
 
 img.dogpic {
-  height: 496px;
+  height: 538px;
   width: 100%;
   object-fit: cover;
 }

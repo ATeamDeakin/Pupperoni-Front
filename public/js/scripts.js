@@ -43,6 +43,12 @@ function login() {
 	};
 	return false;
 }
+
+function logout()
+{
+	console.log("Logged out");
+window.localStorage.removeItem("jwt");
+}
 let ownertext=`{
 	"firstName": "Akshat",
 	"local": "Dockdiving, Fetch, Swimming",
